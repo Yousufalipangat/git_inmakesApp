@@ -1,0 +1,33 @@
+{
+    "data":[
+        {   
+            "course_id":1,
+            "course":"Course Title",
+            "thumbnail" :"https://cdn.pixabay.com/photo/2016/04/26/09/01/plasma-1353916_1280.jpg",
+            "course_progress":12 
+
+        },
+        {
+            "course_id":2,
+            "course":"Course Title",
+            "thumbnail" :"https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png",
+            "course_progress":20
+
+        },
+        {
+            "course_id":3,
+            "course":"Course Title",
+            "thumbnail" :"https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png",
+            "course_progress":5 
+
+        },
+        {
+            "course_id":4,
+            "course":"Course Title",
+            "thumbnail" :"https://cdn.pixabay.com/photo/2013/11/28/09/50/albert-einstein-219675_1280.jpg",
+            "course_progress":33
+
+        }
+
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Biology_chapters": {
+        "total_chapter": 12,
+        "total_hours": 124,
+        "chapter_list": [
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            },
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            },
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            },
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            },
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            },
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            },
+            {
+                "chapterNo": 1,
+                "chapterName": "Chapter 1",
+                "points": "3"
+            }
+        ]
+    }
+}

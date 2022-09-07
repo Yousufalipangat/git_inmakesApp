@@ -1,0 +1,24 @@
+{
+    "chapter_1": [
+        {
+            "id": "part 1",
+            "thumbnail": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg"
+        },
+        {
+            "id": "part 2",
+            "thumbnail": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg"
+        },
+        {
+            "id": "part 3",
+            "thumbnail": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg"
+        },
+        {
+            "id": "part 4",
+            "thumbnail": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg"
+        },
+        {
+            "id": "part 5",
+            "thumbnail": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg"
+        }
+    ]
+}
