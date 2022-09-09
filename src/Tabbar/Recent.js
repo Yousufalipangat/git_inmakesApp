@@ -15,10 +15,10 @@ export default class Recent extends Component{
     render(){
         return(
             <View style={style.container}>
-                <View style={style.header}>
-                    <Text>Recent</Text>
+               
+                    <Text>No Data</Text>
                     
-                </View>
+             
 
             </View>
         )
@@ -29,7 +29,9 @@ const style=StyleSheet.create({
     container:{
         width:'100%',
         height:'100%',
-        backgroundColor:'lightblue',
+        backgroundColor:'White',
+        justifyContent:'center',
+        alignItems:'center',
     },
     header:{
 

@@ -13,6 +13,9 @@ import {
 } from "react-native";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import VideoList from "./VideoList";
+import ChapterTest from './ChapterTest';
+import Resources from './Resources';
+import QNBank from './QNBank';
 
 const TopBar = createMaterialTopTabNavigator()
 
@@ -42,7 +45,7 @@ export default class Chapter extends Component {
                         </View>
                     </View>
                 </View >
-                <NavigationContainer>
+               
                     <TopBar.Navigator
                         screenOptions={()=>({
                             
@@ -74,19 +77,19 @@ export default class Chapter extends Component {
                         />
                         <TopBar.Screen
                             name="Chapter Test"
-                            component={VideoList}
+                            component={ChapterTest}
                         />
                         <TopBar.Screen
                             name="Resources"
-                            component={VideoList}
+                            component={Resources}
                         />
                         <TopBar.Screen
                             name="QN Bank"
-                            component={VideoList}
+                            component={QNBank}
                         />
                         
                     </TopBar.Navigator>
-                </NavigationContainer>
+               
 
             </View>
 

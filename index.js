@@ -17,4 +17,4 @@ import Chapter from './src/Chapter/Chapter';
 import Videos from './src/Chapter/Videos'
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent(appName, () => Videos);
+AppRegistry.registerComponent(appName, () => PageRouter);

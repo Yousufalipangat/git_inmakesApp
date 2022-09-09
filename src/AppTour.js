@@ -22,7 +22,7 @@ export default  class AppTour extends Component{
                         <Text style={{ fontWeight: 'bold', fontSize: 12, color: '#bbb' }}>The app tour description goes here</Text>
                 </View>
                     <View style={{backgroundColor:'white',borderColor:'#00c458',margin:20,borderWidth:2,padding:3,borderRadius:15}}>
-                <TouchableHighlight style={styles.button}>
+                <TouchableHighlight style={styles.button} onPress={()=>this.props.navigation.navigate('Drawer')} >
                      <Icon name='forward' size={27} color='white'  />
                 </TouchableHighlight>
                     </View>

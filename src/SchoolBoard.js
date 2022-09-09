@@ -80,7 +80,7 @@ export default class SchoolBoard extends Component {
 
                              </View>
 
-                            <TouchableHighlight style={styles.button}>
+                            <TouchableHighlight style={styles.button} onPress={()=>this.props.navigation.navigate('AppTour')} >
                                 <Text style={{ color: 'white' }}>Continue</Text>
                             </TouchableHighlight>
                             

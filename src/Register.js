@@ -28,7 +28,7 @@ export default class Register extends Component {
                             <TextInput keyboardType="numeric" maxLength={3} placeholder="+91" placeholderTextColor={'#555'} style={[styles.inputField, { width: '20%' }]}></TextInput>
                             <TextInput keyboardType="numeric" maxLength={10} placeholder="Mobile number" placeholderTextColor={'#555'} style={[styles.inputField, { width: '80%' }]}></TextInput>
                         </View>
-                        <TouchableHighlight style={styles.button}>
+                        <TouchableHighlight style={styles.button} onPress={()=>this.props.navigation.navigate('OTP')}>
                             <Text style={{ color: 'white' }}>Continue</Text>
                         </TouchableHighlight>
 

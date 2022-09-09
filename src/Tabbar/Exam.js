@@ -15,10 +15,9 @@ export default class Exam extends Component{
     render(){
         return(
             <View style={style.container}>
-                <View style={style.header}>
-                    <Text>Exam</Text>
-                    
-                </View>
+                
+                    <Text>NO DATA</Text>
+              
 
             </View>
         )
@@ -29,7 +28,9 @@ const style=StyleSheet.create({
     container:{
         width:'100%',
         height:'100%',
-        backgroundColor:'lightblue',
+        backgroundColor:'White',
+        justifyContent:'center',
+        alignItems:'center',
     },
    
 

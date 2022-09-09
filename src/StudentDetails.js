@@ -63,7 +63,7 @@ export default class StudentDetails extends Component {
                               
                              </View>
 
-                            <TouchableHighlight style={styles.button}>
+                            <TouchableHighlight style={styles.button} onPress={()=>this.props.navigation.navigate('SchoolBoard')}>
                                 <Text style={{ color: 'white' }}>Register</Text>
                             </TouchableHighlight>
                             

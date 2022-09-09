@@ -53,7 +53,8 @@ export default function CustTabBar({ state, descriptors, navigation }) {
                         name = 'mail'
                         break;
                 }
-                //  console.log(name);
+                
+                if(name!=''){
                 return (
                     isFocused ?
 
@@ -65,7 +66,7 @@ export default function CustTabBar({ state, descriptors, navigation }) {
 
 
 
-                )
+                )}
 
             })
             }
@@ -80,7 +81,7 @@ const tab_styles = StyleSheet.create(
         tab_container: {
             flexDirection: 'row',
             position:'absolute',
-           width:'80%',
+           width:'90%',
             marginHorizontal:10,
             height: 65,
             backgroundColor: 'white',

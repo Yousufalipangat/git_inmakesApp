@@ -47,7 +47,7 @@ export default class OTP extends Component {
                                 <TextInput keyboardType="numeric" maxLength={1} style={styles.inputField}></TextInput>
                                 <TextInput keyboardType="numeric" maxLength={1} style={styles.inputField}></TextInput>
                             </View>
-                            <TouchableHighlight style={styles.button}>
+                            <TouchableHighlight style={styles.button} onPress={()=>this.props.navigation.navigate('StudentDetails')}>
                                 <Text style={{ color: 'white' }}>Resend OTP</Text>
                             </TouchableHighlight>
                             <Text style={{ fontSize: 11, color: '#666', marginVertical: 10 }}>Resend after 2s</Text>

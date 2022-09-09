@@ -31,7 +31,7 @@ render(){
                             </View>
                             <View style={{margin:15}}>
                             <View>
-                                <Text style={{fontWeight:'bold',fontSize:20,color:'rgb(31,62,76)'}}>Long Chapter name can be shown here</Text>
+                                <Text style={{fontWeight:'bold',fontSize:20,color:'rgb(31,62,76)'}} onPress={()=>this.props.navigation.navigate('VideosScreen')} >Long Chapter name can be shown here</Text>
                             </View>
                             <View style={{marginVertical:10, flexDirection:'row'}}>
                                 <View style={{marginRight:20,flexDirection:'row',alignItems:'center'}}>
